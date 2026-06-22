@@ -131,6 +131,19 @@ DB_PASSWORD=your_database_password
 
 Do not commit `.env`. Use `.env.example` as the safe template for required environment variables.
 
-## License
+## Link the local repository to GitHub
 
-MIT
+Replace `YOUR_USERNAME` with your GitHub username:
+
+```bash
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/create-express-project.git
+git push -u origin main
+```
+
+Example:
+
+```bash
+git remote add origin https://github.com/Oussama-ay/create-express-project.git
+git push -u origin main
+```
